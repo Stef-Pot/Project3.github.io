@@ -14,9 +14,10 @@ body {
     margin: 6px 17px;
     padding: 25px 50px;
     font-size: 35px;
-    width:75%;
-    float:none:
-    
+    width: 75%;
+    float: none;
+        max-width:90%;
+    max-height: 100%;
 }
 #Rightblock {
     text-align: left;
@@ -37,7 +38,8 @@ body {
     margin: 6px 17px;
     font-size: 20px;
     width: inherit;
-    
+    max-width: 90%;
+    max-height: 100%;
 }
 
 .RightBH {
@@ -48,8 +50,8 @@ body {
     margin: 6px 17px;
     font-size: 25px;
     width: inherit;
-    height:100%;
-    
+    max-width: 90%;
+    max-height: 100%;
 }
 
 
@@ -72,7 +74,8 @@ body {
     border: thin;
     border-color: cadetblue;
     width: inherit;
-    height: 100%;
+    max-width: 90%;
+    max-height: 100%;
     padding: 25px 50px;
     margin: 6px 17px;
 }
@@ -80,7 +83,8 @@ body {
     text-align: center;
     background-color: rgb(42,61,89);
     width: inherit;
-    height: 100%;
+    max-width: 90%;
+    max-height: 100%;
     padding: 25px 50px;
     margin: 6px 17px;
     font-size: 22px;
@@ -95,7 +99,8 @@ body {
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
     width: inherit;
-    height: 100%;
+    max-width: 90%;
+    max-height: 100%;
 }
 .PersonPar2 {
     text-align: justify;
@@ -107,14 +112,16 @@ body {
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
     width: inherit;
-    height: 100%;
+    max-width: 90%;
+    max-height: 100%;
 }
 .EdB {
     background-color: rgb(102,99,103);
     padding: 25px 50px;
     margin: 6px 17px;
     width: inherit;
-    height: 100%;
+    max-width: 90%;
+    max-height: 100%;
 }
 .EdH {
     text-align: center;
@@ -125,7 +132,8 @@ body {
     margin: 6px 17px;
     font-size: 22px;
     width: inherit;
-    height: 100%;
+    max-width: 90%;
+    max-height: 100%;
 }
 .EdL {
     text-align: justify;
@@ -133,7 +141,8 @@ body {
     margin: 6px 17px;
     font-size: 20px;
     width: inherit;
-    height: 100%;
+    max-width: 90%;
+    max-height: 100%;
 }
 .EdTable {
     text-align: center;
@@ -142,7 +151,8 @@ body {
     padding: 25px 50px;
     margin: 6px 17px;
     width: inherit;
-    height: 100%;
+    max-width: 90%;
+    max-height: 100%;
 }
 .EdPar {
     text-align: justify;
@@ -154,7 +164,8 @@ body {
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
     width: inherit;
-    height: 100%;
+    max-width: 90%;
+    max-height: 100%;
 }
 .CertificationB {
     background-color: rgb(102,99,103);
@@ -163,7 +174,8 @@ body {
     padding: 25px 50px;
     margin: 6px 17px;
     width: inherit;
-    height: 100%;
+    max-width: 90%;
+    max-height: 100%;
 }
 .MatricCer {
     text-align: left;
@@ -171,7 +183,8 @@ body {
     font-size: 20px;
     background-color: antiquewhite;
     width: inherit;
-    height: 100%;
+    max-width: 90%;
+    max-height: 100%;
 }
 .CerL {
     text-align: center;
@@ -180,7 +193,8 @@ body {
     margin: 6px 17px;
     font-size: 20px;
     width: inherit;
-    height: 100%;
+    max-width: 90%;
+    max-height: 100%;
 }
 .CerTable {
     text-align: center;
@@ -190,7 +204,8 @@ body {
     margin: 6px 17px;
     font-size: 15px;
     width: inherit;
-    height: 100%;
+    max-width: 90%;
+    max-height: 100%;
 }
 .ProjectB {
     background-color: rgb(102,99,103);
@@ -199,7 +214,8 @@ body {
     padding: 25px 50px;
     margin: 6px 17px;
     width: inherit;
-    height: 100%;
+    max-width: 90%;
+    max-height: 100%;
 }
 .ProjectTable {
     text-align: center;
@@ -209,7 +225,8 @@ body {
     margin: 6px 17px;
     font-size: 15px;
     width: inherit;
-    height: 100%;
+    max-width: 90%;
+    max-height: 100%;
 }
 .ProjectL {
     text-align: center;
@@ -220,7 +237,8 @@ body {
     margin: 6px 17px;
     font-size: 20px;
     width: inherit;
-    height: 100%;
+    max-width: 90%;
+    max-height: 100%;
 }
 .ProjectP {
     text-align: justify;
@@ -232,7 +250,8 @@ body {
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
     width: inherit;
-    height: 100%;
+    max-width: 90%;
+    max-height: 100%;
 }
 .MoreB {
     background-color: rgb(102,99,103);
@@ -241,7 +260,8 @@ body {
     padding: 25px 50px;
     margin: 6px 17px;
     width: inherit;
-    height: 100%;
+    max-width: 90%;
+    max-height: 100%;
 }
 .MoreL {
     text-align: center;
@@ -250,7 +270,8 @@ body {
     margin: 6px 17px;
     font-size: 20px;
     width: inherit;
-    height: 100%;
+    max-width: 90%;
+    max-height: 100%;
 }
 .MoreP {
     text-align: justify;
@@ -262,7 +283,256 @@ body {
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
     width: inherit;
-    height: 100%;
+    max-width:90%;
+    max-height:100%;
+    
+}
+
+.button {
+    color: black;
+    background-color: darksalmon;
+    border-bottom-style: outset;
+    width: inherit;
+    max-width: 90%;
+    max-height: 100%;
+    margin: 6px 17px;
+    width: 50px;
+    height:50x;
+}
+
+.image {
+    width: 30%;
+    height: 50%;
+    padding: 25px 50px;
+    margin: 6px 17px;
+}
+
+
+@media all (max-with:600px)
+{
+    #MainH {
+        
+        margin: 0px 0px;
+        padding: 0px 0px;    
+        max-width: 90%;
+        max-height: 100%;
+    }
+
+    #Rightblock {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        max-width: 90%;
+        max-height: 100%;
+        overflow-y: hidden;
+        float:right;
+    }
+
+    .CheckBox {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        max-width: 90%;
+        max-height: 100%;
+        float: ;left;
+    }
+
+    .RightBH {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        max-width: 90%;
+        max-height: 100%;
+        float: right;
+    }
+
+
+
+
+    #Leftblock {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        max-width: 90%;
+        max-height: 100%;
+        overflow-y: hidden;
+        float: left;
+    }
+
+
+    .PersonB {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        max-width: 90%;
+        max-height: 100%;
+        float: right;
+    }
+
+    .PersonH {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        max-width: 90%;
+        max-height: 100%;
+        float: right;
+    }
+
+    .PersonPar {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        max-width: 90%;
+        max-height: 100%;
+        float: right;
+    }
+
+    .PersonPar2 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        max-width: 90%;
+        max-height: 100%;
+        float: right;
+    }
+
+    .EdB {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        max-width: 90%;
+        max-height: 100%;
+        float: right;
+    }
+
+    .EdH {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        max-width: 90%;
+        max-height: 100%;
+        float: right;
+    }
+
+    .EdL {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        max-width: 90%;
+        max-height: 100%;
+        float: right;
+    }
+
+    .EdTable {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        max-width: 90%;
+        max-height: 100%;
+        float: right;
+    }
+
+    .EdPar {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        max-width: 90%;
+        max-height: 100%;
+        float: right;
+    }
+
+    .CertificationB {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        max-width: 90%;
+        max-height: 100%;
+        float: right;
+    }
+
+    .MatricCer {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        max-width: 90%;
+        max-height: 100%;
+        float: right;
+    }
+
+    .CerL {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        max-width: 90%;
+        max-height: 100%;
+        float: right;
+    }
+
+    .CerTable {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        max-width: 90%;
+        max-height: 100%;
+        float: right;
+    }
+
+    .ProjectB {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        max-width: 90%;
+        max-height: 100%;
+        float: right;
+    }
+
+    .ProjectTable {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        max-width: 90%;
+        max-height: 100%;
+        float: right;
+    }
+
+    .ProjectL {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        max-width: 90%;
+        max-height: 100%;
+        float: right;
+    }
+
+    .ProjectP {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        max-width: 90%;
+        max-height: 100%;
+        float: right;
+    }
+
+    .MoreB {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        max-width: 90%;
+        max-height: 100%;
+        float: right;
+    }
+
+    .MoreL {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        max-width: 90%;
+        max-height: 100%;
+        float: right;
+    }
+
+    .MoreP {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        max-width: 90%;
+        max-height: 100%;
+        float: right;
+    }
+
+    .button {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        max-width: 90%;
+        max-height: 100%;
+        float: left;
+    }
+
+    .image {
+        width: 30%;
+        height: 30%;
+        margin: 0px 0px;
+        padding: 0px 0px;
+        max-width: 40%;
+        max-height: 40%%;
+        float:left;
+    }
 }
 
 

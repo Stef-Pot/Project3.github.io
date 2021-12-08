@@ -11,65 +11,143 @@
 <body>
 
     <h1 id="MainH">Stephanus Petrus CV</h1>
-    <img src="https://drive.google.com/uc?id=1VaiRNFoC2H7DTvfPrLzQJgPC7nnK_T8v" style="width:30%;height:30%px" />
-
-    <table>
-        <tr>
-            <td id="Leftblock">
-                <h2 id="h2">CV Content</h2><br />
-                <label for="PersonalBox" class="CheckBox" value="select what information you want to see" onclick="setFocusPer()">Personal Info</label><br />
-                <input type="checkbox" id="PersonalBox" onclick="showHidePer()"><br /><br />
-                <label for="EducationBox" class="CheckBox" value="select what information you want to see" onclick="setFocusPer()">Education</label><br />
-                <input type="checkbox" id="EducationBox" class="CheckBox" onclick="showHideEd()"><br />
-                <label for="CertificationBox" class="CheckBox" value="select what information you want to see" onclick="setFocusPer()">Certification</label><br />
-                <input type="checkbox" id="CertificationBox" class="CheckBox" onclick="showHideCer()"><br />
-                <label for="ProjectBox" class="CheckBox" value="select what information you want to see" onclick="setFocusPer()">Project</label><br />
-                <input type="checkbox" id="ProjectBox" class="CheckBox" onclick="showHideSkill()"><br />
-                <label for="SkillsBox" class="CheckBox" value="select what information you want to see" onclick="setFocusPer()">Skills</label><br />
-                <input type="checkbox" id="SkillsBox" class="CheckBox" onclick="showHideSkill()"><br />
-                <label for="MoreBox" class="CheckBox" value="select what information you want to see" onclick="setFocusPer()">More Information about me</label><br />
-                <input type="checkbox" id="MoreBox" class="CheckBox" onclick="showHideMore()"><br />
-
-
-            </td>
-
-        <tr id="Rightblock">
-            <td>
-
-
-                <div id="PersonalB" class="PersonB" style="display:none">
-                    <h3 id="PersonalH" class="PersonH">Personal Information</h3><br />
-                    <p id="PersonalP1" class="PersonPar">
-                        Name:Stephanus Petrus Potgieter<br />
-                        Contact Number:0764027571<br />
-                        Email Address:<a href="url">stepanuspetruspwork@gmail.com</a><br />
-                        Alternative number: 0764027568 <br />
-                        Linkdin Account:<a href="http://www.linkedin.com/in/stephanus-potgieter-2bba02222">Linkdin Account</a><br />
-                    </p>
-                    <p id="PersonalP2 " class="PersonPar2">
-                        Objective:<br />
-                        A Third(final) Year Information Technology student that is both creative and a critical
-                        thinker, who likes problem solving. Taking charge and using my intuition comes
-                        naturally to me. I am eager to learn more by joining graduate projects, internships
-                        and gain work experience. Ultimately, to find a job in analytics and or development,
-                        so that I can challenge myself and prosper using my skills.
-                    </p>
-
-                </div><br />
+    <img class="image" src="https://drive.google.com/uc?id=1VaiRNFoC2H7DTvfPrLzQJgPC7nnK_T8v"  />
+    <h2 id="h2">CV Content</h2><br />
+                               <table>
+                                   <tr>
+                                       <td id="Leftblock">
+                                           <table></table>
+                                   <tr>
+                                       <td>
+                                           <label for="PersonalBox" class="CheckBox" value="select what information you want to see">Personal Info</label>
+                                           </td>>
+                                   <td>
+                                       <input type="checkbox" id="PersonalBox" onclick="showHidePer()">
+                                       <br />
+                                       
+                                       </td>
+                                       <td>
+                                           <button class="button" onclick="setFocusPer()">Go</button>
+                                       </td>
+                                   </tr>
+                                   <tr>
+                                       <td>
+                                           <label for="EducationBox" class="CheckBox" value="select what information you want to see">Education</label>
+                                       </td>>
+                                       <td>
+                                           <input type="checkbox" id="EducationBox" class="CheckBox" onclick="showHideEd()">
+                                           <br />
+                                       </td>
+                                       <td>
+                                           <button class="button" onclick="setFocusEd()">Go</button>
+                                       </td>
 
 
+                                   </tr>
+                                   <tr>
+                                       <td>
+                                           <label for="CertificationBox" class="CheckBox" value="select what information you want to see">Certification</label>
+                                       </td>>
+                                       <td>
+                                           <input type="checkbox" id="CertificationBox" class="CheckBox" onclick="showHideCer()">
+                                           <br />
+                                       </td>
+                                       <td>
+                                           <button class="button" onclick="setFocusCer()">Go</button>
+                                       </td>
 
-                <div id="EducationB" class="EdB" style="display:none">
-                    <h3 id="EducationH" class="EdH">Education</h3><br />
-                    <label id="EdH" class="EdL">Third Year Information Technology student at North West University</label>
 
-                    <label class="EdL">Potchefstroom campus.</label><br />
-                    <label id="EdH3" class="EdL">February 2019 – December 2021</label><br />
-                    <table id="edTable" class="EdTable">
-                        <tr>
-                            <td>
-                                <lable id="EdH4" class="EdL">First-Year Modules</lable>
-                                <pre id="EdP" class="EdPar">
+                                   </tr>
+                                   <tr>
+                                       <td>
+                                           <label for="ProjectBox" class="CheckBox" value="select what information you want to see">Project</label>
+                                       </td>>
+                                       <td>
+                                           <input type="checkbox" id="ProjectBox" class="CheckBox" onclick="showHideSkill()">
+                                           <br />
+                                       </td>
+                                       <td>
+                                           <button class="button" onclick="setFocusPro()">Go</button>
+                                       </td>
+
+
+                                   </tr>
+                                   <tr>
+                                       <td>
+                                           <label for="SkillsBox" class="CheckBox" value="select what information you want to see">Skills</label>
+                                       </td>>
+                                       <td>
+                                           <input type="checkbox" id="SkillsBox" class="CheckBox" onclick="showHideSkill()">
+                                           <br />
+                                       </td>
+                                       <td>
+                                           <button class="button" onclick="setFocusSkill()">Go</button>
+                                       </td>
+
+
+                                   </tr>
+
+                                   <tr>
+                                       <td>
+                                           <label for="MoreBox" class="CheckBox" value="select what information you want to see">More Information about me</label>
+                                       </td>>
+                                       <td>
+                                           <input type="checkbox" id="MoreBox" class="CheckBox" onclick="showHideMore()">
+                                           <br />
+                                       </td>
+                                       <td>
+                                           <button class="button" onclick="setFocusMore()">Go</button>
+                                       </td>
+
+
+                                   </tr>
+
+
+
+
+
+
+
+
+
+
+                                   <tr id="Rightblock">
+                                       <td>
+
+
+                                           <div id="PersonalB" class="PersonB" style="display:none">
+                                               <h3 id="PersonalH" class="PersonH">Personal Information</h3><br />
+                                               <p id="PersonalP1" class="PersonPar">
+                                                   Name:Stephanus Petrus Potgieter<br />
+                                                   Contact Number:0764027571<br />
+                                                   Email Address:<a href="url">stepanuspetruspwork@gmail.com</a><br />
+                                                   Alternative number: 0764027568 <br />
+                                                   Linkdin Account:<a href="http://www.linkedin.com/in/stephanus-potgieter-2bba02222">Linkdin Account</a><br />
+                                               </p>
+                                               <p id="PersonalP2 " class="PersonPar2">
+                                                   Objective:<br />
+                                                   A Third(final) Year Information Technology student that is both creative and a critical
+                                                   thinker, who likes problem solving. Taking charge and using my intuition comes
+                                                   naturally to me. I am eager to learn more by joining graduate projects, internships
+                                                   and gain work experience. Ultimately, to find a job in analytics and or development,
+                                                   so that I can challenge myself and prosper using my skills.
+                                               </p>
+
+                                           </div><br />
+
+
+
+                                           <div id="EducationB" class="EdB" style="display:none">
+                                               <h3 id="EducationH" class="EdH">Education</h3><br />
+                                               <label id="EdH" class="EdL">Third Year Information Technology student at North West University</label>
+
+                                               <label class="EdL">Potchefstroom campus.</label><br />
+                                               <label id="EdH3" class="EdL">February 2019 – December 2021</label><br />
+                                               <table id="edTable" class="EdTable">
+                                                   <tr>
+                                                       <td>
+                                                           <lable id="EdH4" class="EdL">First-Year Modules</lable>
+                                                           <pre id="EdP" class="EdPar">
                                             Business
                                             Calculus
                                             Structured programming
@@ -77,16 +155,16 @@
                                             Statistics
                                             User interface programming
                                         </pre>
-                            </td>
+                                                       </td>
 
-                        </tr>
-                        <tr>
-                            <td>
-                                <lable id="EdH5" class="EdL">
-                                    Second-Year Modules
-                                </lable>
+                                                   </tr>
+                                                   <tr>
+                                                       <td>
+                                                           <lable id="EdH5" class="EdL">
+                                                               Second-Year Modules
+                                                           </lable>
 
-                                <pre id="EdP2" class="EdPar">
+                                                           <pre id="EdP2" class="EdPar">
                                             Business
                                             User interface programming
                                             Algorithm analysis
@@ -96,13 +174,13 @@
                                             Communication Ethics in the science and technologies world
                                         </pre>
 
-                            </td>
+                                                       </td>
 
-                        </tr>
-                        <tr>
-                            <td>
-                                <lable id="EdH6" class="EdL">Third-Year Modules</lable>
-                                <pre id="EdP3" class="EdPar">
+                                                   </tr>
+                                                   <tr>
+                                                       <td>
+                                                           <lable id="EdH6" class="EdL">Third-Year Modules</lable>
+                                                           <pre id="EdP3" class="EdPar">
                                             Databases and advanced databases
                                             Computer networks
                                             Decision support systems
@@ -110,107 +188,104 @@
                                             Artificial intelligence
                                             Operating systems
                                         </pre>
-                            </td>
+                                                       </td>
 
 
-                        </tr>
+                                                   </tr>
 
 
-                    </table><br />
-                    <label id="EdH7" class="EdL">Matric Certificate at Dr. E.G. Jansen in Boksburg</label><br />
+                                               </table><br />
+                                               <label id="EdH7" class="EdL">Matric Certificate at Dr. E.G. Jansen in Boksburg</label><br />
 
-                    <label id="EdH8" class="EdL">
-                        Subjects:
-                    </label>
-                    <br />
-                    <p id="EducationP2" class="EdPar">
-                        Mathematics, Accounting, Afrikaans, English, Information technology, Physics and
-                        Chemistry Sciences.
-                    </p>
-
-
-
-                </div><br />
-                <div class="CertificationB" id="CerB" style="display:none">
-                    <h3 id="CertificationH" class="PersonH"> My Certifications</h3>
-                    <p id="CertificationP" class="EdPar">
-                        <label id="CourseH" class="CerL">Matric serticficate</label><br />
-                        <a href="https://drive.google.com/file/d/11CuxsYLrH4bURFXApLm9cfeUIR1lrgpS/view?usp=sharing">Matric Certificate</a><br />
-
-
-                        <lable id="CourseH2" class="CerL">courses </lable><br />
-                        <table class="CerTable">
-                            <tr>
-                                <th>Course</th>
-                                <th>Certification</th>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    IBM Badge 1:Agile Intro
-
-                                </td>
-                                <td>
-                                    <a href="https://www.credly.com/earner/earned/badge/7df2fcbb-f399-4b92-81d0-336166d31a8e">Badge</a>
-
-                                </td>
-                            </tr>
-                            <tr>
-                                <td> IBM Badge 2:GIT Source Control</td>
-                                <td>
-                                    <a href="https://www.credly.com/earner/earned/badge/9629eba4-d113-44c4-8e3b-0e904020081d">Badge</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>IBM Badge 3:Web Development</td>
-                                <td>
-                                    <a href="https://www.credly.com/earner/earned/badge/680cd02c-7582-4ade-b714-88a1b0d33a81">Badge</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    IBM Badge 4:API Introduction
-                                </td>
-                                <td>
-                                    <a href="https://www.credly.com/earner/earned/badge/9db0004a-3647-4b13-b7b9-71b5f56635b5">Badge</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Udemy 1:Build Quiz App with CSS,HTML and JavaScript
-                                </td>
-                                <td>
-                                    <a href="https://www.udemy.com/home/my-courses/learning/">Certification</a>
-
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Udemy 2:Microsoft Azure for beginners | Cloud Fundamentals
-                                </td>
-                                <td>
-                                    <a href="https://www.udemy.com/home/my-courses/learning/">Certification</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Udemy 3:Cloud Computing with Amazon Web Service
-                                </td>
-                                <td>
-                                    <a href="https://www.udemy.com/home/my-courses/learning/">Certification</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Udemy 4:Learn Angular 4 Scratch
-                                </td>
-                                <td>
-                                    <a href="https://www.udemy.com/home/my-courses/learning/">Certification</a>
-                                </td>
-                            </tr>
+                                               <label id="EdH8" class="EdL">
+                                                   Subjects:
+                                               </label>
+                                               <br />
+                                               <p id="EducationP2" class="EdPar">
+                                                   Mathematics, Accounting, Afrikaans, English, Information technology, Physics and
+                                                   Chemistry Sciences.
+                                               </p>
 
 
 
+                                           </div><br />
+                                           <div class="CertificationB" id="CerB" style="display:none">
+                                               <h3 id="CertificationH" class="PersonH"> My Certifications</h3>
+                                               <p id="CertificationP" class="EdPar">
+                                                   <label id="CourseH" class="CerL">Matric serticficate</label><br />
+                                                   <a href="https://drive.google.com/file/d/11CuxsYLrH4bURFXApLm9cfeUIR1lrgpS/view?usp=sharing">Matric Certificate</a><br />
+
+
+                                                   <lable id="CourseH2" class="CerL">courses </lable><br />
+                                                   <table class="CerTable">
+                                                       <tr>
+                                                           <th>Course</th>
+                                                           <th>Certification</th>
+                                                       </tr>
+
+                                                       <tr>
+                                                           <td>
+                                                               IBM Badge 1:Agile Intro
+
+                                                           </td>
+                                                           <td>
+                                                               <a href="https://www.credly.com/earner/earned/badge/7df2fcbb-f399-4b92-81d0-336166d31a8e">Badge</a>
+
+                                                           </td>
+                                                       </tr>
+                                                       <tr>
+                                                           <td> IBM Badge 2:GIT Source Control</td>
+                                                           <td>
+                                                               <a href="https://www.credly.com/earner/earned/badge/9629eba4-d113-44c4-8e3b-0e904020081d">Badge</a>
+                                                           </td>
+                                                       </tr>
+                                                       <tr>
+                                                           <td>IBM Badge 3:Web Development</td>
+                                                           <td>
+                                                               <a href="https://www.credly.com/earner/earned/badge/680cd02c-7582-4ade-b714-88a1b0d33a81">Badge</a>
+                                                           </td>
+                                                       </tr>
+                                                       <tr>
+                                                           <td>
+                                                               IBM Badge 4:API Introduction
+                                                           </td>
+                                                           <td>
+                                                               <a href="https://www.credly.com/earner/earned/badge/9db0004a-3647-4b13-b7b9-71b5f56635b5">Badge</a>
+                                                           </td>
+                                                       </tr>
+                                                       <tr>
+                                                           <td>
+                                                               Udemy 1:Build Quiz App with CSS,HTML and JavaScript
+                                                           </td>
+                                                           <td>
+                                                               <a href="https://www.udemy.com/home/my-courses/learning/">Certification</a>
+
+                                                           </td>
+                                                       </tr>
+                                                       <tr>
+                                                           <td>
+                                                               Udemy 2:Microsoft Azure for beginners | Cloud Fundamentals
+                                                           </td>
+                                                           <td>
+                                                               <a href="https://www.udemy.com/home/my-courses/learning/">Certification</a>
+                                                           </td>
+                                                       </tr>
+                                                       <tr>
+                                                           <td>
+                                                               Udemy 3:Cloud Computing with Amazon Web Service
+                                                           </td>
+                                                           <td>
+                                                               <a href="https://www.udemy.com/home/my-courses/learning/">Certification</a>
+                                                           </td>
+                                                       </tr>
+                                                       <tr>
+                                                           <td>
+                                                               Udemy 4:Learn Angular 4 Scratch
+                                                           </td>
+                                                           <td>
+                                                               <a href="https://www.udemy.com/home/my-courses/learning/">Certification</a>
+                                                           </td>
+                                                       </tr>
 
 
 
@@ -229,89 +304,92 @@
 
 
 
-                        </table>
-                    </p>
-                    <br />
-                </div>
-                <div class="ProjectB" id="ProjB" style="display:none">
-                    <h3 id="ProjectH" class="PersonH">Projects</h3>
-                    <table id="ProjectP" class="ProjectTable">
-                        <tr>
-                            <td>
-                                <label>System development Project</label><br />
-                                I was a team member on developing , creating and implimeanting a System for a samll coffee shop.<br />
-                                Funcionallity Uncluded:<br />
-                                Managing the orders and stock with a database and sql <br />
-                                Backend development to handel the logical coding using C#<br />
-                                User Interface was a website created with Html and CSS<br />
-
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <label>Database Project</label><br />
-                                I was a team member on developing , creating a a Database for a hypathetical Computer shop.<br />
-                                Funcionallity Uncluded:<br />
-                                Managing the stock with a oracle database and sql. <br />
-                                Developing Sql queries that pruduce the compatibality of the hardware stock.<br />
-                                SQL Queries that Output  orders order information that is valiable for the distrubution of products. <br />
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <label>CV Project</label><br />
-                                Delelop a CV website using HTML,CSS and Javascript.<br />
-                                Funcionallity Uncluded:<br />
-                                A interactive cv to show case skills and make employers life easier.<br />
-
-                                API In a website , Git and more .<br />
-                            </td>
-                        </tr>
-                    </table><br />
-                </div>
-                <div class="ProjectB" id="SkillB" style="display:none">
-                    <h3 id="SkillH" class="PersonH">Skills i have obtain</h3>
-
-                    <br />
-                    <table id="Skilltable" class="ProjectTable">
-                        <tr>
-                            <td>System and Database design</td>
-                            <td> Skilful</td>
-                        </tr>
-                        <tr>
-                            <td> Python</td>
-                            <td> Intermediate</td>
-                        </tr>
-                        <tr>
-                            <td> C/C+</td>
-                            <td> Intermediate</td>
-                        </tr>
-                        <tr>
-                            <td> C sharp</td>
-                            <td>Skilful</td>
-                        </tr>
-                        <tr>
-                            <td> Microsoft Excel</td>
-                            <td>Intermediate</td>
-                        </tr>
-                        <tr>
-                            <td> Oracle SQL Developer</td>
-                            <td>Skilful</td>
-                        </tr>
-                        <tr>
-                            <td> Java</td>
-                            <td>Intermediate</td>
-                        </tr>
 
 
 
+                                                   </table>
+                                               </p>
+                                               <br />
+                                           </div>
+                                           <div class="ProjectB" id="ProjB" style="display:none">
+                                               <h3 id="ProjectH" class="PersonH">Projects</h3>
+                                               <table id="ProjectP" class="ProjectTable">
+                                                   <tr>
+                                                       <td>
+                                                           <label>System development Project</label><br />
+                                                           I was a team member on developing , creating and implimeanting a System for a samll coffee shop.<br />
+                                                           Funcionallity Uncluded:<br />
+                                                           Managing the orders and stock with a database and sql <br />
+                                                           Backend development to handel the logical coding using C#<br />
+                                                           User Interface was a website created with Html and CSS<br />
+
+                                                       </td>
+                                                   </tr>
+                                                   <tr>
+                                                       <td>
+                                                           <label>Database Project</label><br />
+                                                           I was a team member on developing , creating a a Database for a hypathetical Computer shop.<br />
+                                                           Funcionallity Uncluded:<br />
+                                                           Managing the stock with a oracle database and sql. <br />
+                                                           Developing Sql queries that pruduce the compatibality of the hardware stock.<br />
+                                                           SQL Queries that Output  orders order information that is valiable for the distrubution of products. <br />
+                                                       </td>
+                                                   </tr>
+                                                   <tr>
+                                                       <td>
+                                                           <label>CV Project</label><br />
+                                                           Delelop a CV website using HTML,CSS and Javascript.<br />
+                                                           Funcionallity Uncluded:<br />
+                                                           A interactive cv to show case skills and make employers life easier.<br />
+
+                                                           API In a website , Git and more .<br />
+                                                       </td>
+                                                   </tr>
+                                               </table><br />
+                                           </div>
+                                           <div class="ProjectB" id="SkillB" style="display:none">
+                                               <h3 id="SkillH" class="PersonH">Skills i have obtain</h3>
+
+                                               <br />
+                                               <table id="Skilltable" class="ProjectTable">
+                                                   <tr>
+                                                       <td>System and Database design</td>
+                                                       <td> Skilful</td>
+                                                   </tr>
+                                                   <tr>
+                                                       <td> Python</td>
+                                                       <td> Intermediate</td>
+                                                   </tr>
+                                                   <tr>
+                                                       <td> C/C+</td>
+                                                       <td> Intermediate</td>
+                                                   </tr>
+                                                   <tr>
+                                                       <td> C sharp</td>
+                                                       <td>Skilful</td>
+                                                   </tr>
+                                                   <tr>
+                                                       <td> Microsoft Excel</td>
+                                                       <td>Intermediate</td>
+                                                   </tr>
+                                                   <tr>
+                                                       <td> Oracle SQL Developer</td>
+                                                       <td>Skilful</td>
+                                                   </tr>
+                                                   <tr>
+                                                       <td> Java</td>
+                                                       <td>Intermediate</td>
+                                                   </tr>
 
 
 
-                    </table>
-                    <br />
-                    <label id="SsH" class="ProjectL">Soft Skills</label><br />
-                    <pre id="Skillpar" class="ProjectP"> 
+
+
+
+                                               </table>
+                                               <br />
+                                               <label id="SsH" class="ProjectL">Soft Skills</label><br />
+                                               <pre id="Skillpar" class="ProjectP"> 
                           Communication
                           Emotionally intelligent
                           Teamwork
@@ -322,21 +400,21 @@
 
 
 
-                </div>
-                <div class="MoreB" id="MoreB" style="display:none">
-                    <h3 id="MoreH" class="PersonH">More Personal Information about me</h3>
-                    <pre id="MoreP" class="MoreP">
+                                           </div>
+                                           <div class="MoreB" id="MoreB" style="display:none">
+                                               <h3 id="MoreH" class="PersonH">More Personal Information about me</h3>
+                                               <pre id="MoreP" class="MoreP">
                             Hobbies Include:
                             Art
                             Video Games on all Platforms
                             Hiking and other Active activities like gym, riverrafting and rock climbing
                         </pre>
-                </div>
-            </td>
+                                           </div>
+                                       </td>
 
 
 
-    </table>
+                               </table>
 
     <div>
         <button class="EdL" onclick="https://github.com/Stef-Pot/Project3">Git Reposotory for this project</button>
@@ -357,7 +435,7 @@
         }
     }
      function setFocusPer() {
-        document.getElementById("PersonalB").focus();
+        document.getElementById("PersonalB").scrollIntoView();
 
     }
     function showHideEd() {
@@ -371,7 +449,7 @@
         }
     }
      function setFocusEd() {
-        document.getElementById("EducationB").focus();
+        document.getElementById("EducationB").scrollIntoView();
 
     }
     function showHideCer() {
@@ -385,7 +463,7 @@
         }
     }
      function setFocusCer() {
-        document.getElementById("CerB").focus();
+        document.getElementById("CerB").scrollIntoView();
 
     }
     function showHidePro() {
@@ -413,7 +491,7 @@
         }
     }
      function setFocusSkill() {
-        document.getElementById("SkillB").focus();
+        document.getElementById("SkillB").scrollIntoView();
 
     }
     function showHideMore() {
@@ -428,7 +506,7 @@
     }
 
     function setFocusMore() {
-        document.getElementById("MoreB").focus();
+        document.getElementById("MoreB").scrollIntoView();
 
     }
 
